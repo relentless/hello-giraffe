@@ -47,6 +47,9 @@ let configureServices (services : IServiceCollection) =
     services.AddRazorEngine viewsFolderPath |> ignore
     services.AddTransient<ITransportService, TransportService>() |> ignore
 
+//let configureDependencyInjection (services : IServiceCollection) =
+    // services.AddTransient<ITransportService, TransportService>() |> ignore
+
 let configureLogging (builder : ILoggingBuilder) =
     let filter (l : LogLevel) = l.Equals LogLevel.Error
     builder.AddFilter(filter).AddConsole().AddDebug() |> ignore
@@ -62,6 +65,7 @@ let main argv =
         .UseWebRoot(webRoot)
         .Configure(Action<IApplicationBuilder> configureApp)
         .ConfigureServices(configureServices)
+        //.configureDependencyInjection(configureServices)
         .ConfigureLogging(configureLogging)
         .Build()
         .Run()

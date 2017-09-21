@@ -7,3 +7,12 @@ c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.pdb
 c:\Programs\asp core\hello giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.fsproj.CoreCompileInputs.cache
 c:\Programs\asp core\hello giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.dll
 c:\Programs\asp core\hello giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.pdb
+C:\Programming\netcore\hello-giraffe\bin\Debug\netcoreapp2.0\Views\Index.cshtml
+C:\Programming\netcore\hello-giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.deps.json
+C:\Programming\netcore\hello-giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.runtimeconfig.json
+C:\Programming\netcore\hello-giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.runtimeconfig.dev.json
+C:\Programming\netcore\hello-giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.dll
+C:\Programming\netcore\hello-giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.pdb
+C:\Programming\netcore\hello-giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.fsproj.CoreCompileInputs.cache
+C:\Programming\netcore\hello-giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.dll
+C:\Programming\netcore\hello-giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.pdb

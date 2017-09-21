@@ -1,0 +1,8 @@
+Work out how to do
+------------------
+
+- dependency injection
+- unit tests
+- integration tests
+- run fake service during tests
+- deserialise json to f# objecs

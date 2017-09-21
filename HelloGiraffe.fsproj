@@ -9,7 +9,9 @@
     <EnableDefaultContentItems>false</EnableDefaultContentItems>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="http.fs" Version="4.1.2" />
+    <PackageReference Include="http.fs" Version="4.1.2">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.0.*" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.0.*" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.0.*" />
