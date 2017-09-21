@@ -13,6 +13,7 @@ open Giraffe.Middleware
 open Giraffe.Razor.HttpHandlers
 open Giraffe.Razor.Middleware
 open HelloGiraffe.Models
+open ServiceInterfaces
 
 open numbers
 
@@ -44,6 +45,7 @@ let configureServices (services : IServiceCollection) =
     let env = sp.GetService<IHostingEnvironment>()
     let viewsFolderPath = Path.Combine(env.ContentRootPath, "Views")
     services.AddRazorEngine viewsFolderPath |> ignore
+    services.AddTransient<ITransportService, TransportService>() |> ignore
 
 let configureLogging (builder : ILoggingBuilder) =
     let filter (l : LogLevel) = l.Equals LogLevel.Error

@@ -30,6 +30,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\*.fs" />
+    <Compile Include="ITransportService.fs" />
+    <Compile Include="TransportService.fs" />
     <Compile Include="numbers.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
