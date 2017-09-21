@@ -1,0 +1,9 @@
+c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\Views\Index.cshtml
+c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.deps.json
+c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.runtimeconfig.json
+c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.runtimeconfig.dev.json
+c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.dll
+c:\Programs\asp core\hello giraffe\bin\Debug\netcoreapp2.0\HelloGiraffe.pdb
+c:\Programs\asp core\hello giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.fsproj.CoreCompileInputs.cache
+c:\Programs\asp core\hello giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.dll
+c:\Programs\asp core\hello giraffe\obj\Debug\netcoreapp2.0\HelloGiraffe.pdb
