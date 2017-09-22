@@ -10,6 +10,7 @@ open Giraffe.HttpHandlers
 open Giraffe.Middleware
 open Giraffe.Razor.HttpHandlers
 open Giraffe.Razor.Middleware
+open Giraffe.HttpContextExtensions
 open HelloGiraffe.Models
 open ServiceInterfaces
 
@@ -23,7 +24,7 @@ let detailsView (service: ITransportService) (next : HttpFunc) (ctx : HttpContex
 let withTransportService() =
     fun (next : HttpFunc) (ctx : HttpContext) ->
         task {
-            let transportService = (ctx.RequestServices.GetService(typeof<ITransportService>) :?> ITransportService)
+            let transportService =  ctx.GetService<ITransportService>()// ctx.GetService<ITransportService>()// (ctx.RequestServices.GetService(typeof<ITransportService>) :?> ITransportService)
             return! (detailsView transportService) next ctx
         }
 
